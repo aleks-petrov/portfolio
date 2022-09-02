@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Home</title>
+    <link>https://aleks-petrov.github.io/portfolio/post/</link>
+    <description>Recent content in Projects on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://aleks-petrov.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Variance &amp; Transactions Dashboard</title>
+      <link>https://aleks-petrov.github.io/portfolio/post/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleks-petrov.github.io/portfolio/post/project1/</guid>
+      <description>Summary: Dashboard that incorporates transaction-level data to assist in month-end variance from budget analysis. Utilized ERP Cloud (SAP HANA) in order to pull the relevant transaction data, the EPM (Hyperion) to pull budget data, and a SQL query to pull relevant invoice information. Then transformed and prepared the data with PowerQuery in PowerBI. Afterwards used DAX and PowerPivot in PowerBI to create a model. Finally used PowerBI to visualize the data and create a dashboard.</description>
+    </item>
+    
+  </channel>
+</rss>

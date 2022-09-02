@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio Site - Aleks Petrov on Home</title>
+    <link>https://aleks-petrov.github.io/portfolio/</link>
+    <description>Recent content in Portfolio Site - Aleks Petrov on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://aleks-petrov.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://aleks-petrov.github.io/portfolio/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleks-petrov.github.io/portfolio/about/</guid>
+      <description>I&amp;rsquo;ve always been fascinated by the finance side of businesses. I started off my pursuits in a bookkeeping role at a local corporation while in highschool and was exposed to all facets of the business. Going into college, I&amp;rsquo;ve had to priviledge of taking many finance, accounting, and econometrics courses and internship opportunities which have expanded my horizons. I now hope to build my career in accounting or corporate finance where I&amp;rsquo;ll be able to support the business and operations by providing meticulous reporting and analytical insight.</description>
+    </item>
+    
+    <item>
+      <title>Variance &amp; Transactions Dashboard</title>
+      <link>https://aleks-petrov.github.io/portfolio/post/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleks-petrov.github.io/portfolio/post/project1/</guid>
+      <description>Summary: Dashboard that incorporates transaction-level data to assist in month-end variance from budget analysis. Utilized ERP Cloud (SAP HANA) in order to pull the relevant transaction data, the EPM (Hyperion) to pull budget data, and a SQL query to pull relevant invoice information. Then transformed and prepared the data with PowerQuery in PowerBI. Afterwards used DAX and PowerPivot in PowerBI to create a model. Finally used PowerBI to visualize the data and create a dashboard.</description>
+    </item>
+    
+  </channel>
+</rss>
