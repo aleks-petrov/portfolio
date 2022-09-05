@@ -164,20 +164,25 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p>Summary: Dashboard that incorporates transaction-level data to assist in month-end variance from budget analysis. Utilized ERP Cloud (SAP HANA) in order to pull the relevant transaction data, the EPM (Hyperion) to pull budget data, and a SQL query to pull relevant invoice information. Then transformed and prepared the data with PowerQuery in PowerBI. Afterwards used DAX and PowerPivot in PowerBI to create a model. Finally used PowerBI to visualize the data and create a dashboard. Goal was to have an automated report for routine analysis at each month end for the reporting analyst and operations.</p>
 <hr>
-<p>Background: For one of my previous internships at an upstream oil &amp; gas company, I had the opportunity to build a dashboard that incorporated transaction-level data in order to aid the reporting analyst with month-end variance analysis and operations with transaction analysis. I&rsquo;ve recreated that dashboard here for demonstrative purposes with randomly generated data.</p>
+<h2 id="background">Background</h2>
+<p>For one of my previous internships at an upstream oil &amp; gas company, I had the opportunity to build a dashboard that incorporated transaction-level data in order to aid the reporting analyst with month-end variance analysis and operations with transaction analysis. I&rsquo;ve recreated that dashboard here for demonstrative purposes with randomly generated data.</p>
 <figure><img src="https://aleks-petrov.github.io/portfolio/images/dashboard1.png"/>
 </figure>
 
-<p>Extraction: For the transaction-level data, I began by narrowing down the relevant expenses via several filters in the ERP. I then used a prebuild SQL querry in the enterprise data flows in PowerBI to pull the relevant transaction-level data. For the budget data, I pulled the relevant data for that asset area and time period. And lastly, I also pulled the invoice information from a prebuild SQL querry.</p>
+<h2 id="extract">Extract</h2>
+<p>For the transaction-level data, I began by narrowing down the relevant expenses via several filters in the ERP. I then used a prebuild SQL querry in the enterprise data flows in PowerBI to pull the relevant transaction-level data. For the budget data, I pulled the relevant data for that asset area and time period. And lastly, I also pulled the invoice information from a prebuild SQL querry.</p>
 <hr>
-<p>Transform: Utilizing PowerQuery in PowerBI, I was able to clean and prepare all of the tables for analysis later on. This include a combination of manipulating data types, making dates and other data formattable, removing duplicated, among others.</p>
+<h2 id="transform">Transform</h2>
+<p>Utilizing PowerQuery in PowerBI, I was able to clean and prepare all of the tables for analysis later on. This include a combination of manipulating data types, making dates and other data formattable, removing duplicated, among others.</p>
 <hr>
-<p>Model: The initial model building stage I utilized PowerPivot in PowerBI to link all tables in order to enable cross filtering. This included ensuring one-to-many relationships and proper cross filtering directions. I then used DAX measures in order to create a more dynamic model. DAX measures were most useful in summing costs, budget data and computing variance calculations.</p>
+<h2 id="model">Model</h2>
+<p>The initial model building stage I utilized PowerPivot in PowerBI to link all tables in order to enable cross filtering. This included ensuring one-to-many relationships and proper cross filtering directions. I then used DAX measures in order to create a more dynamic model. DAX measures were most useful in summing costs, budget data and computing variance calculations.</p>
 <figure><img src="https://aleks-petrov.github.io/portfolio/images/dashboard2.png"/>
 </figure>
 
 <hr>
-<p>Sharing: In order to enable reusability and sharability, the report was posted to the corporation&rsquo;s PowerBI website where permissions could be set for the relevant individuals who need the report</p>
+<h2 id="sharing">Sharing</h2>
+<p>In order to enable reusability and sharability, the report was posted to the corporation&rsquo;s PowerBI website where permissions could be set for the relevant individuals who need the report</p>
 <figure><img src="https://aleks-petrov.github.io/portfolio/images/dashboard3.png"/>
 </figure>
 

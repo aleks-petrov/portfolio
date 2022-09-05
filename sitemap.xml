@@ -20,6 +20,10 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://aleks-petrov.github.io/portfolio/post/project2/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://aleks-petrov.github.io/portfolio/tags/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

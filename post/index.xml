@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Mar 2017 12:00:00 -0500</lastBuildDate><atom:link href="https://aleks-petrov.github.io/portfolio/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Personal Finances Dashboard</title>
+      <link>https://aleks-petrov.github.io/portfolio/post/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleks-petrov.github.io/portfolio/post/project2/</guid>
+      <description>Summary: Excel model that incorporates personal financial information like expenses and budget data. Utilizing PowerQuery to extract and transform the data, PowerPivot to create a model with logic, and finally Excel to display the data in a dashboard for analysis. This model is an example of what I use to track my personal finances except it uses randomized data. Goal was to have an automatable report for easy analysis of personal financial data.</description>
+    </item>
+    
+    <item>
       <title>Variance &amp; Transactions Dashboard</title>
       <link>https://aleks-petrov.github.io/portfolio/post/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
