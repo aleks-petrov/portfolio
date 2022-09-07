@@ -39,7 +39,7 @@
 <meta itemprop="name" content="Variance &amp; Transactions Dashboard">
 <meta itemprop="description" content="Transaction-Level Dashboard for Variance from Budget Analysis">
 
-<meta itemprop="wordCount" content="347">
+<meta itemprop="wordCount" content="358">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Variance &amp; Transactions Dashboard"/>
 <meta name="twitter:description" content="Transaction-Level Dashboard for Variance from Budget Analysis"/>
@@ -170,10 +170,10 @@
 </figure>
 
 <h2 id="extract">Extract</h2>
-<p>For the transaction-level data, I began by narrowing down the relevant expenses via several filters in the ERP. I then used a prebuild SQL querry in the enterprise data flows in PowerBI to pull the relevant transaction-level data. For the budget data, I pulled the relevant data for that asset area and time period. And lastly, I also pulled the invoice information from a prebuild SQL querry.</p>
+<p>For the transaction-level data, I began by narrowing down the relevant expenses from the ERP via several filters in order for the totals to tie to the PnL. I then used a prebuilt SQL query in the enterprise data flows in PowerBI to pull the relevant transaction-level data. For the budget data, I pulled the relevant data for that asset area and time period. And lastly, I also pulled the invoice information from a prebuilt SQL query.</p>
 <hr>
 <h2 id="transform">Transform</h2>
-<p>Utilizing PowerQuery in PowerBI, I was able to clean and prepare all of the tables for analysis later on. This include a combination of manipulating data types, making dates and other data formattable, removing duplicated, among others.</p>
+<p>Utilizing PowerQuery in PowerBI, I was able to clean and prepare all of the tables for analysis later on. This included a combination of manipulating data types, making dates and other data formattable, removing duplicates, among other things.</p>
 <hr>
 <h2 id="model">Model</h2>
 <p>The initial model building stage I utilized PowerPivot in PowerBI to link all tables in order to enable cross filtering. This included ensuring one-to-many relationships and proper cross filtering directions. I then used DAX measures in order to create a more dynamic model. DAX measures were most useful in summing costs, budget data and computing variance calculations.</p>
