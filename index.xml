@@ -34,5 +34,14 @@
       <description>Summary: Dashboard that incorporates transaction-level data to assist in month-end variance from budget analysis. Utilized ERP Cloud (SAP HANA) in order to pull the relevant transaction data, the EPM (Hyperion) to pull budget data, and a SQL query to pull relevant invoice information. Then transformed and prepared the data with PowerQuery in PowerBI. Afterwards used DAX and PowerPivot in PowerBI to create a model. Finally used PowerBI to visualize the data and create a dashboard.</description>
     </item>
     
+    <item>
+      <title>Well Production Dashboard</title>
+      <link>https://aleks-petrov.github.io/portfolio/post/project3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://aleks-petrov.github.io/portfolio/post/project3/</guid>
+      <description>Summary: PowerBI dashboard that incorporates well production data and oil prices over time. The dashboard visualizes and reports well production and revenue over time, as well as the project economics of the individual wells going forward. The dashboard includes net present value measures in order to determine profitability of the producing wells as well as scenario analysis in forecasting revenue. The goal of this dashboard is to test out forward looking analytical features in an oil &amp;amp; gas context.</description>
+    </item>
+    
   </channel>
 </rss>

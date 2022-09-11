@@ -31,5 +31,9 @@
     <loc>https://aleks-petrov.github.io/portfolio/post/project1/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://aleks-petrov.github.io/portfolio/post/project3/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
 </urlset>
