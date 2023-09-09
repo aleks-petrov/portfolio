@@ -17,15 +17,6 @@
     </item>
     
     <item>
-      <title>1. Well Production &amp; Project Economics Dashboard</title>
-      <link>https://aleks-petrov.github.io/portfolio/post/project4test/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://aleks-petrov.github.io/portfolio/post/project4test/</guid>
-      <description>Summary: PowerBI dashboard that incorporates well production data and oil prices over time. The dashboard visualizes and reports well production and revenue over time, as well as the project economics of the individual wells going forward. The dashboard includes net present value measures in order to determine profitability of the producing wells as well as scenario analysis in forecasting revenue. The goal of this dashboard is to test out forward looking analytical features in an oil &amp;amp; gas context.</description>
-    </item>
-    
-    <item>
       <title>2. Variance &amp; Transactions Dashboard</title>
       <link>https://aleks-petrov.github.io/portfolio/post/project1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
